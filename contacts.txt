@@ -1,0 +1,124 @@
+Alexander
+Garcia
+(303) 555-0165
+alexander.garcia@example.com
+Aria
+Hall
+(646) 555-0192
+aria.hall@example.com
+Chloe
+King
+(718) 555-0129
+chloe.king@example.com
+Ava
+Martinez
+(202) 555-0197
+ava.martinez@example.com
+Benjamin
+Taylor
+(312) 555-0119
+benjamin.taylor@example.com
+Charlotte
+Jackson
+(202) 555-0141
+charlotte.jackson@example.com
+Daniel
+Clark
+(718) 555-0188
+daniel.clark@example.com
+Amelia
+Harris
+(646) 555-0186
+amelia.harris@example.com
+Elena
+Andino-Perez
+(787)-226-1897
+eandino6938@interbayamon.edu
+Eiko
+Musume
+(333) 289-1100
+eiko.musume@gmail.com
+Elijah
+Thomas
+(415) 555-0106
+elijah.thomas@example.com
+Emma
+Johnson
+(312) 555-0193
+emma.johnson@hotmail.com
+Evelyn
+Thompson
+(510) 555-0172
+evelyn.thompson@hotmail.com
+Harper
+Martinez
+(917) 555-0151
+harper.martinez@gmail.com
+Henry
+Martin
+(312) 555-0132
+henry.martin@example.com
+Isabella
+Moore
+(303) 555-0128
+isabella.moore@hotmail.com
+Ella
+Rodriguez
+(202) 555-0170
+ella.rodriguez@gmail.com
+Jack
+Wright
+(202) 555-0160
+jack.wright@gmail.com
+Jackson
+Walker
+(213) 555-0111
+jackson.walker@example.com
+James
+Wilson
+(917) 555-0184
+james.wilson@example.com
+Liam
+Smith
+(213) 555-0182
+liam.smith@example.com
+Logan
+Allen
+(303) 555-0189
+logan.allen@example.com
+Lucas
+White
+(213) 555-0177
+lucas.white@example.com
+Matthew
+Lewis
+(415) 555-0123
+matthew.lewis@hotmail.com
+Noah
+Davis
+(646) 555-0157
+noah.davis@interbayamon.edu
+Olivia
+Brown
+(415) 555-0164
+olivia.brown@example.com
+Scarlett
+Lee
+(312) 555-0154
+scarlett.lee@example.com
+Sebastian
+Hernandez
+(917) 555-0125
+sebastian.hernandez@example.com
+Mia
+Anderson
+(718) 555-0195
+mia.anderson@example.com
+Sophia
+Miller
+(510) 555-0139
+sophia.miller@gmail.com
+Grace
+Young
+(510) 555-0113
+grace.young@gmail.com
