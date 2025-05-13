@@ -27,8 +27,6 @@ namespace ContactsBook
             entriesPerPage = 10;
             changesSaved = true;
 
-            LoadContactsFromFile("data.txt");
-
             ShowSplashScreen();
             ShowMainMenu();
 
@@ -197,7 +195,6 @@ namespace ContactsBook
                 for (int i = offset; i < limit; i++)
                 {
                     Contact e = allContacts[i];
-                    //string firName = (e.firstName.Length > 24) ? e.firstName.Substring(0, 21) + "..." : e.firstName;
                     Console.WriteLine($"[{i.ToString().PadLeft(3, '0')}] {e.firstName,-12} {e.lastName,-12} {e.phoneNum,-14} {e.email,-20}");
                 }
                 for (int i = 0; i < entriesPerPage - (limit - offset); i++)
@@ -402,15 +399,66 @@ namespace ContactsBook
         public bool IsDuplicate(Contact a, Contact b)
         {
 
-            if (b.firstName.Equals(a.firstName) || b.lastName.Equals(a.lastName) ||
-                b.phoneNum.Equals(a.phoneNum) || b.email.Equals(a.email) )
-            {
-                return true;
-            }
-            else
-            {
-                return false;
-            }
+             if(b.firstName == null || b.firstName.Length == 0 || a.firstName == null || a.firstName.Length == 0)
+             {
+                 if (b.lastName.Equals(a.lastName) ||
+                 b.phoneNum.Equals(a.phoneNum) || b.email.Equals(a.email))
+                 {
+                     return true;
+                 }
+                else
+                 {
+                     return false;
+                 }
+             }
+             else if (b.lastName == null || b.lastName.Length == 0 || a.lastName == null || a.lastName.Length == 0)
+             {
+                 if (b.firstName.Equals(a.firstName) ||
+                 b.phoneNum.Equals(a.phoneNum) || b.email.Equals(a.email))
+                 {
+                     return true;
+                 }
+                 else
+                 {
+                     return false;
+                 }
+             }
+             else if (b.phoneNum == null || b.phoneNum.Length == 0 || a.phoneNum == null || a.phoneNum.Length == 0)
+             {
+                 if (b.firstName.Equals(a.firstName) || 
+                     b.lastName.Equals(a.lastName) || b.email.Equals(a.email))
+                 {
+                     return true;
+                 }
+                 else
+                 {
+                     return false;
+                 }
+             }
+             else if (b.email == null || b.email.Length == 0 || a.email == null || a.email.Length == 0)
+             {
+                 if (b.firstName.Equals(a.firstName) || b.lastName.Equals(a.lastName) ||
+                 b.phoneNum.Equals(a.phoneNum) || b.email.Equals(a.email))
+                 {
+                     return true;
+                 }
+                 else
+                 {
+                     return false;
+                 }
+             }
+             else
+             {
+                 if (b.firstName.Equals(a.firstName) || b.lastName.Equals(a.lastName) ||
+                b.phoneNum.Equals(a.phoneNum) || b.email.Equals(a.email))
+                 {
+                     return true;
+                 }
+                 else
+                 {
+                     return false;
+                 }
+             }
             
         }
 
